@@ -1,0 +1,6 @@
+a)making first and last name private means that it is hidden to all other child classes may be it is done to hide information and no one could change it even if he gets acces to child class
+age is protected due to ease of child classes as protected members are accesible by child classes and it could not reveal any information beacuse age is not unique i.e many people can have same age
+b)parent class memebers are inaccessible
+c)We get this error because private members of base class are always hidden no matter which type of inheritance we use with derived classes they are totally inaccessible
+Exercise8)maiking inheritence protected provide access of (protected and public) members of base class to derived class as all the getters and setters are still accessible by derived classes so no error occured
+Exercise9) still no error occured beacuse only private members become hiddens but their getters and setters become private members errors would've occured if their was a grand class behind all this
